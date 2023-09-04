@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar img{
+    height: 60px;
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 5px 10px;
+    
+
+}
+
+#navbar ul li a{
+    text-decoration:none;
+    padding: 10px 10px;
+    color: aliceblue;
+
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#ordersection::before{
+    content: "";
+    background:url(fruit.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#ordersection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 10px 20px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.btn{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 11px;
+    background-color: brown;
+        color: aliceblue;
+}
+#ourservices{
+    height: 300px;
+}
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 6px;
+    border-radius: 23px;
+    background-color: wheat;
+}
+
+#services .box img{
+    height: 60px;
+    width: 50px;
+    display: block;
+    margin: auto;
+
+}
+.h-head{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+}
+.h-secondry{
+    text-align: center;
+    font-size: 1.8rem ;
+}
+#clintsection{
+    display: flex;
+    align-items: center ;
+    justify-content:center;
+}
+#head{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.clints img{
+    height: 124px;
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+#ourclints::before{
+    content: "";
+    background: url(pizza-5107054_640.jpg)no-repeat center center/cover;
+    position:absolute;
+    height: 46%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+} 
+
+
+
+    
